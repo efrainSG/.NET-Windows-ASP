@@ -31,7 +31,7 @@ namespace Doge.WebApp.Models
 
         public string RemainingTime { 
             get {
-                return string.Format("Time left: {0} days {1} hours {2} minutes {3} seconds.",
+                return string.Format("{0} days {1} hours {2} minutes {3} seconds.",
                     _date.Day-1, _date.Hour, _date.Minute, _date.Second
                     );
             }
